@@ -14,7 +14,7 @@ select * from states
 ALTER TABLE partywise_results
 ADD party_alliance VARCHAR(50);
 
--- I.N.D.I.A Allianz
+-- i) I.N.D.I.A Allianz
 
 UPDATE partywise_results
 SET party_alliance = 'I.N.D.I.A'
@@ -41,7 +41,7 @@ WHERE party IN (
     'Viduthalai Chiruthaigal Katchi - VCK'
 );
 
--- NDA Allianz
+-- ii) NDA Allianz
 
 UPDATE partywise_results
 SET party_alliance = 'NDA'
@@ -62,7 +62,7 @@ WHERE party IN (
     'Sikkim Krantikari Morcha - SKM'
 );
 
--- OTHER
+-- iii) OTHER
 
 UPDATE partywise_results
 SET party_alliance = 'OTHER'
@@ -86,8 +86,8 @@ GROUP BY
 ORDER BY 
     Seats_Won DESC;
 
-  9) /*Winning candidate's name, their party name, total votes, and 
-      the margin of victory for a specific state and constituency?*/
+/* 9)  For a specific state and constituency: What are the winning candidate’s name, 
+their party name, total votes, and the margin of victory? */
 SELECT 
 cr.Winning_Candidate, p.Party, p.party_alliance, cr.Total_Votes, 
 cr.Margin, cr.Constituency_Name, s.State
@@ -97,7 +97,7 @@ JOIN statewise_results sr ON cr.Parliament_Constituency = sr.Parliament_Constitu
 JOIN states s ON sr.State_ID = s.State_ID
 WHERE s.State = 'Uttar Pradesh' AND cr.Constituency_Name = 'AMETHI';
 
--- 10) What is the distribution of EVM votes versus postal votes for candidates in a specific constituency?
+-- 10)  What is the distribution of EVM votes versus postal votes for candidates in a specific constituency? 
 
 SELECT 
     cd.Candidate,
@@ -114,7 +114,7 @@ WHERE
     cr.Constituency_Name = 'MATHURA'
 ORDER BY cd.Total_Votes DESC;
 
--- 11) Which parties won the most seats in s State, and how many seats did each party win?
+-- 11) Which parties won the most seats in a given state, and how many seats did each party win?
 
 SELECT 
     p.Party,

@@ -9,7 +9,7 @@ select * from statewise_results
 select * from states
 
 
--- 1) Total Seats
+-- 1) What is the total number of Lok Sabha seats across India?
 	SELECT 
 	DISTINCT COUNT (Parliament_Constituency) AS Total_Seats
 	FROM constituencywise_results
@@ -32,7 +32,7 @@ GROUP BY
 ORDER BY 
     s.State;
 
--- 3) Total Seats Won by NDA Allianz
+-- 3)  What is the total number of seats won by the NDA alliance? 
 SELECT 
     SUM(CASE 
             WHEN party IN (
@@ -56,7 +56,7 @@ SELECT
 FROM 
     partywise_results
 
--- 4) Seats Won by NDA Allianz Parties
+-- 4) What are the seats won by NDA alliance parties individually? 
 SELECT 
     party as Party_Name,
     won as Seats_Won
@@ -81,7 +81,7 @@ WHERE
     )
 ORDER BY Seats_Won DESC
 
--- 5) Total Seats Won by I.N.D.I.A. Allianz
+-- 5) What is the total number of seats won by the I.N.D.I.A. alliance? 
 SELECT 
     SUM(CASE 
             WHEN party IN (
@@ -112,7 +112,7 @@ SELECT
 FROM 
     partywise_results
 
--- 6) Seats Won by I.N.D.I.A. Allianz Parties
+-- 6) What are the seats won by I.N.D.I.A. alliance parties individually? 
 SELECT 
     party as Party_Name,
     won as Seats_Won
