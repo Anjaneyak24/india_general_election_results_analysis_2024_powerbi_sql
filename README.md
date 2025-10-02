@@ -134,7 +134,7 @@ git clone https://github.com/Anjaneyak24/India_General_Election_Results_Analysis
 - [KPIs_Queries.sql](scripts/KPIs_Queries.sql)  
 - [Other_KPIs_Analysis.sql](scripts/Other_KPIs_Analysis.sql)
 
-3. Click the link below to view the POWERBI Dashboard
+3. Click the link below to view the POWERBI Dashboard:
  - [India_General_Election_Results_2024_Dashboard](dashboard/India_General_Election_Results_2024_Dashboard.pbix)
 
 4. Click the links below to view the POWRBI and SQL reports:
@@ -142,7 +142,7 @@ git clone https://github.com/Anjaneyak24/India_General_Election_Results_Analysis
 - [India_General_Election_Results_2024_SQL_Report.pdf](reports/India_General_Election_Results_2024_SQL_Report.pdf)
 
 
-5. Click the link below to view Dataset
+5. Click the link below to view Datasets:
  - [constituencywise_details](datasets/constituencywise_details.csv)
  - [constituencywise_results](datasets/constituencywise_results.csv)
  - [partwise_results](datasets/partywise_results.csvcsv)
