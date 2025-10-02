@@ -71,12 +71,15 @@ India_General_Election_Results_Analysis_2024/
 │   └── Indias_General_Election_Result_2024_SQL_Report.pdf
 │
 └── snapshots/                                 # Dashboard screenshots
-    ├── 1. Landing_Page.png
-    ├── 2. Overall_Analysis.png
-    ├── 3. State_Demographics_Analysis.png
-    ├── 4. Political_Landscape_by_State.png
-    ├── 5. Constituency_Level_Analysis.png
-    └── 6. Details_Grid_View.png
+    ├──  Landing_Page.png
+    ├──  Overall_Analysis.png
+    ├──  State_Demographics_Analysis2.png
+    ├──  State_Demographics_Analysis.png
+    ├──  Political_Landscape_by_State.png
+    ├──  onstituency_Level_Analysis.png
+    └──  Details_Grid_View.png
+    
+
 
 
 
