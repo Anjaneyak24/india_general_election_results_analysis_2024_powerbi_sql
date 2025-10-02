@@ -101,6 +101,7 @@ POWERBI Dashboard Shows:
 
 ![Landing Page](snapshots/Landing_Page.png)
 ![Overall Analysis](snapshots/Overall_Analysis.png)
+![State Demographics Analysis2](snapshots/State_Demographics_Analysis2.png)
 ![State Demographics Analysis](snapshots/State_Demographics_Analysis.png)
 ![Political Landscape by State](snapshots/Political_Landscape_by_State.png)
 ![Constituency Level Analysis](snapshots/Constituency_Level_%20Analysis.png)
