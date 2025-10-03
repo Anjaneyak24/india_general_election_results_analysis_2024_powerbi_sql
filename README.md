@@ -70,14 +70,17 @@ India_General_Election_Results_Analysis_2024/
 │   ├── Indias_General_Election_Result_2024_PowerBI_Report.pdf
 │   └── Indias_General_Election_Result_2024_SQL_Report.pdf
 │
-└── snapshots/                                 # Dashboard screenshots
-    ├──  Landing_Page.png
-    ├──  Overall_Analysis.png
-    ├──  State_Demographics_Analysis2.png
-    ├──  State_Demographics_Analysis.png
-    ├──  Political_Landscape_by_State.png
-    ├──  onstituency_Level_Analysis.png
-    └──  Details_Grid_View.png
+└── snapshots/                                 # Dashboards And  Data Modeling screenshots
+    ├── Landing_Page.png
+    ├── Overall_Analysis.png
+    ├── Overall_Analysis2.png
+    ├── State_Demographics_Analysis.png
+    ├── State_Demographics_Analysis2.png
+    ├── Political_Landscape_by_State.png
+    ├── Constituency_Level_Analysis.png
+    ├── Details_Grid_View.png
+    └── Data_Modeling.png
+
     
 
 
@@ -100,15 +103,18 @@ POWERBI Dashboard Shows:
 - Political Landscape by State: Visualizes alliance strongholds, seat dominance, and regional competition.
 - Constituency-Level Analysis: Details battleground constituencies, turnout, and candidate performance.
 - Details Grid View: Offers a tabular, drill-through view of all constituencies with export and filter options.
+- Data Modeling: Establishes relationships between tables, enabling seamless aggregation, filtering, and drill-through across dashboards. Supports efficient analysis of national, state, and constituency-level election results.
 
 
 ![Landing Page](snapshots/Landing_Page.png)
 ![Overall Analysis](snapshots/Overall_Analysis.png)
+![Overall Analysis2](snapshots/Overall_Analysis2.png)
 ![State Demographics Analysis2](snapshots/State_Demographics_Analysis2.png)
 ![State Demographics Analysis](snapshots/State_Demographics_Analysis.png)
 ![Political Landscape by State](snapshots/Political_Landscape_by_State.png)
 ![Constituency Level Analysis](snapshots/Constituency_Level_%20Analysis.png)
 ![Details Grid View](snapshots/Details_Grid_View.png)
+![Data Modeling](snapshots/Data_Modeling.png)
 
 
 
